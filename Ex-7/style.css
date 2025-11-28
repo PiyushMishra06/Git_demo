@@ -1,55 +1,44 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
+/* Center Title */
+.title {
+    text-align: center;
 }
 
 /* Block Example */
-.block-menu a {
-  display: block;
-  background-color: #3498db;
-  color: white;
-  padding: 10px;
-  margin: 5px 0;
-  text-decoration: none;
+.highlight {
+    background: #3498db;
+    color: white;
+    padding: 10px;
+    margin: 2px 0; /* reduces space between p tags */
 }
 
 /* Inline Example */
-.inline-menu a {
-  display: inline;
-  background-color: #24f544;
-  color: white;
-  padding: 5px;
-  margin: 5px;
-  text-decoration: none;
+.inline {
+    display: inline;
+    background: #2ecc71;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 5px;
 }
 
 /* Inline-Block Example */
-.inline-block-menu a {
-  display: inline-block;
-  background-color: #9b59b6;
-  color: white;
-  height: 50px;
-  width: 120px;
-  padding: 10px 15px;
-  margin: 5px;
-  text-decoration: none;
+.inlineBlock {
+    display: inline-block;
+    background: #9b59b6;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
 }
 
 /* Float Example */
-.float-menu a {
-  float: right;
-  background-color: #e67e22;
-  color: white;
-  padding: 10px 15px;
-  margin: 5px;
-  text-decoration: none;
+.float {
+    float: left;
+    background: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
 }
 
-/* Clear Example */
-.clear-example {
-  clear: both;       /* This stops floating elements */
-  background-color: #f4f4f4;
-  padding: 10px;
-  margin-top: 20px;
-  border: 1px solid #ccc;
+/* Just spacing for navbar */
+.navbar {
+    margin-bottom: 20px;
 }
