@@ -11,7 +11,8 @@ h1{
 .product-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    /*auto-fit = auto adjust columns based on available space*/
+
+    
     gap: 20px;
     padding: 20px;
     max-width: 1200px;
