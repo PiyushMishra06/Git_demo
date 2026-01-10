@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 1200px;
+  max-width: 95%;
+  margin: auto;
+}
+
+
+.top-nav {
+  background: #f2f2f2;
+  font-size: 12px;
+  padding: 6px 0;
+}
+
+.top-nav .container {
+  display: flex;
+  justify-content: space-between;
+}
+.top-links a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #555;
+}
+
+
+.header {
+  background: #ff6a00;
+  padding: 20px 0;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo span {
+  color: #fff3e6;
+}
+
+
+.search-area {
+  flex: 1;
+}
+
+.search-tabs {
+  display: flex;
+}
+
+.search-tabs button {
+  padding: 6px 15px;
+  border: none;
+  cursor: pointer;
+  background: #e65c00;
+  color: white;
+  font-size: 13px;
+}
+
+.search-tabs .active {
+  background: white;
+  color: #ff6a00;
+}
+
+.search-box {
+  display: flex;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+}
+
+.search-box button {
+  padding: 12px 25px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.action-btn {
+  padding: 10px 15px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.action-btn.outline {
+  background: transparent;
+  border: 1px solid white;
+}
+
+
+.main {
+  display: flex;
+  margin-top: 20px;
+}
+
+
+.sidebar {
+  width: 240px;
+  background: white;
+  padding: 15px;
+}
+
+.sidebar h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  padding: 8px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  color: #ff6a00;
+}
+
+
+.content {
+  flex: 1;
+  margin-left: 20px;
+}
+
+
+.hero {
+  background: white;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  margin: 20px 0 10px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.product-card {
+  background: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.product-card .img {
+  height: 140px;
+  background: #e6e6e6;
+  margin-bottom: 10px;
+}
+
+.product-card h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.footer {
+  background: #222;
+  color: #ccc;
+  margin-top: 40px;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 13px;
+}
