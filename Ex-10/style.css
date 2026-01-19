@@ -48,7 +48,7 @@
 @media (min-width : 769px) and (max-width : 1024px)
 {
     .nav-links a
-    {
+    { 
         font-size : 0.9rem;
     }
 }
